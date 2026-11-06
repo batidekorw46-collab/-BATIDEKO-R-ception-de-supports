@@ -1,0 +1,15 @@
+BATIDEKO - Réception de supports - publication gratuite sur GitHub Pages
+
+1. Créer un compte gratuit sur https://github.com/
+2. Créer un dépôt PUBLIC nommé batideko-supports (sans y déposer de plans ni de données clients).
+3. Cliquer sur Add file > Upload files, puis déposer le fichier index.html contenu dans ce dossier.
+4. Ouvrir Settings > Pages > Build and deployment > Source: Deploy from a branch.
+5. Choisir Branch: main, Folder: / (root), puis Save.
+6. Attendre la publication. Ouvrir l'adresse affichée par GitHub Pages, généralement https://VOTRE-COMPTE.github.io/batideko-supports/
+7. Sur le Samsung, ouvrir cette adresse dans Chrome. Autoriser la caméra lorsque demandé.
+8. Importer un PDF client. Une connexion Internet est nécessaire pour charger PDF.js depuis le CDN (version actuelle).
+9. Ajouter repères, commentaires et photos. Cliquer sur Créer le PDF pour le client, puis dans Imprimer choisir Enregistrer au format PDF. Partager le PDF par Gmail ou Outlook.
+
+IMPORTANT : la publication GitHub Pages est publique. Ne jamais téléverser les plans clients, photos ou dossiers clients dans le dépôt GitHub. Les fichiers importés via l'application sont traités par le navigateur, mais le code n'a pas fait l'objet d'un audit de sécurité. La sauvegarde JSON doit être conservée dans un espace d'entreprise autorisé. Ne pas traiter de données confidentielles avant validation interne.
+
+LIMITES : cette version n'a pas été testée sur le Samsung de l'utilisateur. Le moteur PDF est encore téléchargé depuis un CDN, donc le mode hors ligne et l'import PDF ne sont pas garantis. La génération PDF utilise la fonction d'impression native d'Android, pas une pièce jointe automatique.
